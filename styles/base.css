@@ -8,7 +8,7 @@
     --border: 2px solid rgb(0 0 0 / 0.2);
     --text-color: #d1d2fe;
     --background-dark: #307599;
-    --dark-text:#12394d;
+    --dark-text:#153a4d;
     --highlight: #a0d6ed;
     --color-light: #dbe4eb;
     --background-light: #bf463d;
@@ -62,7 +62,7 @@ h2 {
 }
 
 h3 {
-    background-color: var(--background-dark);
+    background-color: var(--dark-text);
     font-family: var(--heading-font);
     color: white;
     border-radius: 13px 13px 0 0;
