@@ -8,9 +8,10 @@
     --border: 2px solid rgb(0 0 0 / 0.2);
     --text-color: #d1d2fe;
     --background-dark: #307599;
+    --dark-text:#12394d;
     --highlight: #a0d6ed;
     --color-light: #dbe4eb;
-    --background-light: #db5d53;
+    --background-light: #bf463d;
     --heading-font: Georgia,
         'Times New Roman',
         Times,
@@ -56,7 +57,7 @@ h2 {
     margin: 35px 0 0 0;
     grid-column: 1/3;
     background-color: var(--color-light);
-    color: var(--background-dark);
+    color: var(--dark-text);
     padding: 10px;
 }
 
@@ -148,4 +149,8 @@ li {
 
 li a {
     color: var(--background-dark)
+}
+
+a:hover {
+    color: var(--highlight);
 }
