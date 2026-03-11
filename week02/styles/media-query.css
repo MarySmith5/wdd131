@@ -2,7 +2,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     border: 1px solid grey;
     padding: 20px;
     background-color: aliceblue;
