@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #00434D;
+    --secondary-color: #59A8A3;
+    --emphasis-color: #ACE1DE;
+    --text-color-on_backgroungd: white;
+    --footer-color: #003B64;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 15px 0;
+}
+
+main h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 250px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+#menu:hover {
+    color: var(--emphasis-color)
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.navigation li {
+    display: none
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.active {
+    background-color: var(--secondary-color);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--emphasis-color);
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+figure {
+    flex: 1 1 200px;
+    margin: 5px 5px 10px 5px;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--footer-color);
+    color: white;
+    padding: 15px;
+    margin: 15px 0;
+}
