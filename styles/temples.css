@@ -82,8 +82,9 @@ nav a {
     text-decoration: none;
 }
 
-.active {
+.navigation a[aria-current="page"] {
     text-decoration: underline;
+    color: white;
 }
 
 a:hover {
@@ -133,3 +134,11 @@ footer {
     padding: 15px;
     margin-top: 15px;
 }
+
+/* This would work like the example for displaying the figures
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 25px;
+    place-items: center;
+} */

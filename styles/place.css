@@ -1,0 +1,81 @@
+:root {
+    --primary-color: #073368;
+    --secondary-color: rgb(227, 10, 10);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid var(--primary-color);
+    display: block;
+    border-top: 20px solid var(--secondary-color);
+}
+
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+    background-color: white;
+}
+
+section:first-of-type {
+        border-bottom: 1px solid rgba(227, 10, 10, 0.2);
+}
+
+.info {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 3px;
+}
+
+.keys {
+    text-align: right;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-top: .5rem;
+    padding: 0;
+}
+
+.values {
+    margin-right: 1rem;
+    margin-top: .5rem;
+}
+
+.icon {
+    margin-bottom: 1.5rem;
+}
+
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+

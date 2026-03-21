@@ -1,0 +1,47 @@
+@media (min-width: 40em){
+
+    h2 {
+        background-color: var(--secondary-color);
+        color: white;
+        position: absolute;
+        top: 1rem;
+        left: -1rem;
+    }
+
+    .weather-header::after {
+        content: " 🌤️";
+        margin-left: 1rem;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    main {
+        position: relative;
+    }
+
+    section {
+        position: absolute;
+        padding-top: 4.5rem;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    section:first-of-type {
+        top: 2rem;
+        left: 2rem;
+        border-bottom: none;
+    }
+
+    section:last-of-type {
+        bottom: 1rem;
+        right: 1rem;
+
+    }
+
+
+
+
+
+
+}
