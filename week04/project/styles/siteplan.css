@@ -4,6 +4,12 @@
     text-align: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header, footer {
     background-color: var(--primary-color);
     color: white;
@@ -43,4 +49,10 @@ main {
 
 section {
     display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    margin: 10px;
 }
