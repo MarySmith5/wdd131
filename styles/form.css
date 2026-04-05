@@ -82,9 +82,8 @@ main {
     padding: .8rem;
     width: 100%;
     max-width: 400px;
-    min-width: 360px;
     margin-bottom: 1rem;
-    margin-left: 10px;
+    margin-left: 6px;
     box-shadow: 1px 1px 4px #999;
     
 }
@@ -95,4 +94,10 @@ footer {
     background-color: #ddd;
     padding: .5rem 2%;
     text-align: center;
+}
+
+@media only screen and (min-width: 64rem) {
+    header {
+        background-color: rgb(138, 19, 19);
+    }
 }
