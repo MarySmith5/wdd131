@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="WDD 131 Create a Product review form">
+    <meta name="author" content="Mary Smith">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <title>Product Review Form</title>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="wf1">
+            <fieldset>
+                <div>Product Name</div>
+                <select id="product" name="product" required>
+                    <option value="" disabled selected>Select a Product ... &#9662</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <div>Overall Rating</div>
+                <label><input id="1star" type="radio" name="rating" value="1" required>⭐️</label>
+                <label><input id="2star" type="radio" name="rating" value="2" required>⭐️⭐️</label>
+                <label><input id="3star" type="radio" name="rating" value="3" required>⭐️⭐️⭐️</label>
+                <label><input id="4star" type="radio" name="rating" value="4" required>⭐️⭐️⭐️⭐️</label>
+                <label><input id="5star" type="radio" name="rating" value="5" required>⭐️⭐️⭐️⭐️⭐️</label>
+            </fieldset>
+            <fieldset>
+                <div>Date of Installation</div>
+                <input id="installed" type="date" name="install-date" required>
+            </fieldset>
+            <fieldset>
+                <div>Which features did you find useful in the product?<br>(Check all that apply)</div>
+                <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
+                <label><input type="checkbox" id="ease" name="ease" value="yes">Ease of Use</label>
+                <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
+                <label><input type="checkbox" id="design" name="design" value="yes">Design</label>
+            </fieldset>
+            <fieldset>
+                <div>Written Review <span>(Optional)</span></div>
+                <textarea id="written" name="written" rows="6" cols="50"></textarea>
+            </fieldset>
+            <fieldset>
+                <div>Your Name <span>(Optional)</span></div>
+                <input type="text" id="name" name="name">
+            </fieldset>
+            <fieldset></fieldset>
+                <input type="submit" value="Post My Review">
+            </fieldset>
+        </form>
+    </main>
+<footer>
+    <p>©<span id="currentyear"></span> Mary Smith California, USA</p>
+    <p id="lastModified">last modified</p>
+</footer>
+</body>
+</html>

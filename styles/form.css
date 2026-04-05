@@ -1,0 +1,98 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: rgb(47, 47, 192);
+    --heading-font: "Gelasio",
+        serif;
+}
+
+/*----------- HEADER --------------*/
+
+header {
+    width: 100%;
+    padding: 1rem 3rem;
+    background-color: var(--dark);
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/*----------- MAIN --------------*/
+
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+    display: grid;
+    place-items: center;
+}
+
+/*----------- FORM STYLING --------------*/
+
+.wf1 fieldset {
+    margin-bottom: .5rem;
+    border: none;
+    padding: .5rem 2%;
+
+}
+
+.wf1 label {
+    display: block;
+    padding-top: .5rem;
+    color: var(--dark);
+    font-size: .9rem;
+    margin-left: 6px;
+}
+
+.wf1 div {
+    padding-top: 1rem;
+    color: var(--dark);
+    font-size: .9rem;
+    margin-left: 6px;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 textarea,
+.wf1 select {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+    margin-left: 6px;
+}
+
+.wf1 input[type="radio"],
+.wf1 input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.wf1 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(var(--dark), rgb(28, 28, 120));
+    color: white;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 400px;
+    min-width: 360px;
+    margin-bottom: 1rem;
+    margin-left: 10px;
+    box-shadow: 1px 1px 4px #999;
+    
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+}
