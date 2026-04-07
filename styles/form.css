@@ -47,13 +47,6 @@ main {
     margin-left: 6px;
 }
 
-.wf1 div {
-    padding-top: 1rem;
-    color: var(--dark);
-    font-size: .9rem;
-    margin-left: 6px;
-}
-
 .wf1 input[type="text"],
 .wf1 input[type="date"],
 .wf1 textarea,
