@@ -10,6 +10,22 @@
     box-sizing: border-box;
 }
 
+.primary {
+    color: var(--primary-color);
+}
+
+.secondary {
+    color: var(--secondary-color);
+}
+
+.head-font {
+    font-family: "Merriweather", serif;
+}
+
+.para-font {
+    font-family: "Roboto", sans-serif;
+}
+
 header, footer {
     background-color: var(--primary-color);
     color: white;
@@ -38,6 +54,7 @@ h2, h3 {
         sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-top: 1rem;
 }
 
 main {
