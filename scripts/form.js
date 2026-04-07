@@ -14,3 +14,13 @@ function createOptions(products) {
         choices.appendChild(option);
     });
 }
+
+
+const reviewsDisplay = document.querySelector(".reviews");
+let numReviews = Number(localStorage.getItem("numReviews")) || 1;
+
+reviewsDisplay.textContent = "Number of Reviews: " + numReviews;
+numReviews++;
+
+localStorage.setItem("numReviews", numReviews);
+
