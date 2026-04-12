@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plain & Precious website to explain principles of freedom with an updateable media library">
+    <meta name="author" content="Mary Smith">
+    <script src="scripts/base.js" defer></script>
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Homepage for the Plain & Precious website</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/plain.png" alt="Plain & Precious logo of US flag">
+        <div>
+        <h1>Plain & Precious</h1>
+        </div>
+        <div class="nav-div">
+            <a id="menu" href="#"></a>
+            <nav id="nav1">
+                <ul class="navigation">
+                    <li><a href="#" id="home" aria-current="page">Freedom</a></li>
+                    <li><a href="attacks.html">Attacks</a></li>
+                    <li><a href="media.html" id="form">Media List</a></li>
+                    <li><a href="form.html" id="form">Media Entry</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <picture class="hero">
+            <source srcset="images/statue-of-liberty-small.webp" media="(max-width: 500px)">
+            <source srcset="images/statue-of-liberty-medium.webp" media="(max-width: 1000px)">
+            <img src="images/statue-of-liberty-large.webp" alt="The Statue of Liberty">
+        </picture>
+        <article class="freedom">
+            <h2>Key to Freedom</h2>
+            <p>"The basic need of a free society is for its people to be self-governed under God's law. True liberty is not the freedom to live as we please, but the power to live as we know God requires. A corrupt and rebellious people cannot and will not remain free, for the simple reason that such people require a powerful government to pass laws so they can be protected from one another! People will ultimately be ruled voluntarily by God's laws, or they will be ruled forcibly by tyrants."</p>
+            <cite>— A Child's Story of America, Christian Liberty Press</cite>
+        </article>
+        <div class="question">
+            <p>Led to a new land by God</p>
+            <p>Made covenants with God</p>
+            <p>Established a free nation</p>
+        </div>
+        <div class="cards">
+            <section>
+                <h3>Ancient Israel</h3>
+                <img src="images/sinai.webp" alt="ancient Israelites at the foot of Mount Sinai" loading="lazy">
+                <p>The ancient Israelites were carried out of Egyptian bondage, prepared in the wilderness by Moses, and brought to the foot of Mount Sinai. There they covenanted to obey the God's commandments. They were eligible for freedom under a system of judges.</p>
+            </section>
+            <section>
+                <h3>Nephites</h3>
+                <i>"... and every man expressed a willingness to answer for his own sins." Mosiah 29:38</i>
+                <img src="images/king-benjamin.webp" alt="ancient Nephites covenanting at King Benjamin's address" loading="lazy">
+                <p>Lehi's family was brought across the ocean, escaping Babylonian captivity. They were prepared by righteous leaders, covenanted under King Benjamin, and were ready to answer for themselves to God under a system of judges.</p>
+            </section>
+            <section>
+                <h3>United States</h3>
+                <i>"And if it so be that they shall serve him ... it shall be a land of liberty unto them;" 2 Nephi 1:7</i>
+                <img src="images/thanksgiving.webp" alt="pilgrims celebrate the first Thanksgiving" loading="lazy">
+                <p>God carried devout pilgrims, seeking religious freedom to America. He inspired men to establish a republic, that provided the necessary freedom for plain and precious covenants to be restored. The influence of covnenant-keepers guards the freedom of the United States of America.</p>
+            </section>
+            <section class="curse">
+                <h3>Covenant Curse</h3>
+                <i>"Wherefore hath the Lord done thus unto this land? What meaneth the heat of this great anger? Then men shall say,
+                Because they have forsaken the covenant of the the Lord God ...."</i>
+                <div><i>Deuteronomy 29:24-25</i></div>
+                <img src="images/o-ye-fair-ones-small.webp" alt="Mormon and Moroni look over their fallen nation" loading="lazy">
+                <p>The Israelite and Nephite nations fell when a critical mass of God's people no longer honored their covenants. Satan promotes convenant-breaking to overthrow the freedom of all nations today.</p>
+                <h4>Visit our <span><a href="attacks.html">Attacks</a></span> page to learn more.</h4>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Mary Smith California, USA</p>
+        <p id="lastModified">last modified</p>
+    </footer>
+</body>
+</html>

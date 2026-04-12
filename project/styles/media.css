@@ -1,0 +1,67 @@
+.header2 {
+    background-color: var(--primary-color);
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.header2 a {
+    padding: 1rem;
+}
+
+#category {
+    display: block;
+    text-align: center;
+    font-family: "Roboto",
+        sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    text-decoration: underline;
+    padding: 1rem 1rem;
+    color: white;
+}
+
+#category::before {
+    content: "Categories";
+}
+
+#category:hover {
+    color: var(--secondary-color);
+}
+
+#category.show::before {
+    content: "x";
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+}
+
+.cards div {
+    display: block;
+    padding: 2rem;
+    margin: 10px;
+    border: 1px solid var(--primary-color);
+    max-width: 400px;
+    justify-content: center;
+    background-color: rgb(243, 242, 242);
+    align-items: center;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.cards h3:hover {
+    color: var(--secondary-color);
+}
+
+@media (min-width: 43em) {
+    #category {
+            display: none;
+        }
+}

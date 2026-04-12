@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 project to create a Product review form with dynamic elements">
+    <meta name="author" content="Mary Smith">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/base.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+    <title>Add Media Form</title>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="images/plain.png" alt="Plain & Precious logo of US flag">
+        <div>
+            <h1>Plain & Precious</h1>
+        </div>
+        <div class="nav-div">
+            <a id="menu" href="#"></a>
+            <nav id="nav1">
+                <ul class="navigation">
+                    <li><a href="project.html" id="home">Freedom</a></li>
+                    <li><a href="attacks.html">Attacks</a></li>
+                    <li><a href="media.html" id="form">Media List</a></li>
+                    <li><a href="form.html" id="form" aria-current="page">Media Entry</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form method="get" action="media.html" class="wf1">
+            <fieldset>
+                <legend>Media List Additions</legend>
+                <label>Title*<input id="title" type="text" name="title" required></label>
+                <label>Link to the Media<input id="link" type="url" name="url" placeholder="http://"></label>
+                <div>Media Type</div>
+                <label><input id="book" type="radio" name="media-type" value="book" required>Book</label>
+                <label><input id="audiobook" type="radio" name="media-type" value="audiobook" required>Audiobook</label>
+                <label><input id="video" type="radio" name="media-type" value="video" required>Video</label>
+                <div>Which topics does the media cover?<br>(Check all that apply)</div>
+                <label><input type="checkbox" id="principles-in" name="principles" value="yes">Principles of Freedom</label>
+                <label><input type="checkbox" id="morality-in" name="morality" value="yes">Morality</label>
+                <label><input type="checkbox" id="division-in" name="division" value="yes">Division</label>
+                <label><input type="checkbox" id="conspiracy-in" name="conspiracy" value="yes">Conspiracy</label>
+                <label><input type="checkbox" id="occult-in" name="occult" value="yes">Occult Influence</label>
+                <label for="summary">Summary of the Content</label>
+                <textarea id="summary" name="summary" rows="8" cols="50"></textarea>
+            </fieldset>
+            <button type="submit">Add My Media</button>
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Mary Smith California, USA</p>
+        <p id="lastModified">last modified</p>
+    </footer>
+</body>
+
+</html>
