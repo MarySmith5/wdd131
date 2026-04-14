@@ -147,7 +147,7 @@ h3 {
     padding: 2rem;
     margin: 10px;
     border: 1px solid var(--primary-color);
-    max-width: 400px;
+    max-width: 350px;
     justify-content: center;
 
     align-items: center;
@@ -293,7 +293,7 @@ h4 {
 
 }
 
-@media (min-width: 60em) {
+@media (min-width: 1130px) {
     .freedom {
         top: 12rem;
         max-width: 90%;
@@ -306,6 +306,14 @@ h4 {
         max-width: 90%;
         margin: 0 5%;
         left: 0;
+    }
+
+    .cards section:last-of-type {
+        max-width: 1110px;
+    }
+
+    .cards img:last-of-type {
+        float: right;
     }
 
 }
