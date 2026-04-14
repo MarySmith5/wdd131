@@ -111,7 +111,7 @@ nav a {
 }
 
 a:hover {
-    color: var(--se-color);
+    color: var(--secondary-color);
 }
 
 .show li {
@@ -208,7 +208,7 @@ h3 {
     border-bottom: 2px solid white;
 }
 
-.curse a {
+a {
     color: white;
 }
 
