@@ -53,7 +53,7 @@ input[type="checkbox"] {
 
 button[type="submit"] {
     border: none;
-    background-image: linear-gradient(var(--secondary-color), rgb(160, 52, 52));
+    background-image: linear-gradient(rgb(16, 16, 168), var(--primary-color));
     color: white;
     border-radius: 6px;
     padding: .8rem;
