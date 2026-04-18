@@ -10,6 +10,7 @@ const inputConspiracy = document.querySelector("#conspiracy-in");
 const inputOccult = document.querySelector("#occult-in");
 const inputSummary = document.querySelector("#summary");
 const addButton = document.querySelector("button");
+const hambutton = document.querySelector('#category');
 
 media = getMediaList(media);
 
